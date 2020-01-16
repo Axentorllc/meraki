@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include meraki *.css
+recursive-include meraki *.csv
+recursive-include meraki *.html
+recursive-include meraki *.ico
+recursive-include meraki *.js
+recursive-include meraki *.json
+recursive-include meraki *.md
+recursive-include meraki *.png
+recursive-include meraki *.py
+recursive-include meraki *.svg
+recursive-include meraki *.txt
+recursive-exclude meraki *.pyc
